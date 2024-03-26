@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "start:dev": "nodemon index"
+    "start:dev": "nodemon index",
+    "type": "module"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
     "-": "^0.0.1",
     "commander": "^12.0.0",
     "D": "^1.0.0",
-    "nodemon": "^3.1.0"
+    "nanoid": "^3.3.7",
+    "nodemon": "^3.1.0",
+    "yarn": "^1.22.22"
   }
 }
